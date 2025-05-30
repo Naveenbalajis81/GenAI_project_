@@ -14,8 +14,8 @@ A Streamlit-powered AI assistant that helps users solve problems related to prod
 
 ## 📸 Demo
 
-![screenshot](/product_helper/images/Screenshot%201.png)
-![](/product_helper/images/Screenshot%202.png)
+![screenshot](/images/Screenshot%201.png)
+![](/images/Screenshot%202.png)
 
 ## 🚀 Quick Start
 ✅ Clone the Repo
