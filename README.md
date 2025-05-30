@@ -36,14 +36,16 @@ use this commend make sure env is activate or not
 "streamlit run app.py"
 
 ## 🗂️ Project Structure
+'''plaintext
 product_helper/
 │
-├── app.py               # Main Streamlit app \n
-├── .env                 # API keys (ignored by git)
-├── requirements.txt     # All Python dependencies
-├── README.md            # You're reading it!
-└── core/
-    └── model.py         # Hugging Face + LangChain logic
+├── .env                        # API keys (ignored by git)
+├── requirements.txt            # All Python dependencies
+├── README.md                   # You're reading it!
+└── chat_bot and streamlitapp/
+    ├── StreamlitApps.py        # Main Streamlit app 
+    └── Genai_many_inputs.py    # Hugging Face + LangChain logic
+'''
 
 ## 🧠 Tech Stack
 Streamlit – Fast interactive apps
