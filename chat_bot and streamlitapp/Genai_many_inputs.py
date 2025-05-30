@@ -28,16 +28,3 @@ solution_chain = prompt | llm
 
 def get_solution(inputs:dict)-> str:
     return solution_chain.invoke(inputs)
-
-# def solution(inputs):
-#     sol=inputs
-#     result = solution_chain.invoke(sol)
-#     print(f"solution{result}")
-    
-# problem=str(input("Enter the problem"))    
-# product_name=str(input("Enter a product name"))
-# product_nature=str(input("Enter the product nature"))
-# language=str(input("Enter a language"))
-# inputs={"problem":problem,"product_name":product_name,"product_nature":product_nature,"language":language}
-
-# solution(inputs)
