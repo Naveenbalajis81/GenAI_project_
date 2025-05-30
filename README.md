@@ -19,20 +19,22 @@ A Streamlit-powered AI assistant that helps users solve problems related to prod
 
 ## 🚀 Quick Start
 ✅ Clone the Repo
-git clone https://github.com/Naveenbalajis81/GenAI_project_.git
+git clone https://github.com/Naveenbalajis81/GenAI_project_.git <br>
 cd GenAI_project_/product_helper
 
-✅ Install Dependencies
-use this commend to install requirements
+✅ Install Dependencies<br>
+Use this commend to install requirements<br>
 "pip install -r requirements.txt"
 
-✅ Set Up Environment Variables
+✅ Set Up Environment Variables<br>
 Create a .env file in the root:
+<pre>
 my_key=your_huggingface_api_key
 MODEL_NAME=model_name eg:"HuggingFaceH4/zephyr-7b-alpha"
+</pre>
 
 ✅ Run the App
-use this commend make sure env is activate or not 
+use this commend make sure env is activate or not <br>
 "streamlit run app.py"
 
 ## 🗂️ Project Structure
