@@ -36,16 +36,16 @@ use this commend make sure env is activate or not
 "streamlit run app.py"
 
 ## 🗂️ Project Structure
-'''plaintext
+<pre>
 product_helper/
 │
+├── chat_bot and streamlitapp/
+│   ├── StreamlitApps.py        # Main Streamlit app 
+│   └── Genai_many_inputs.py    # Hugging Face + LangChain logic
 ├── .env                        # API keys (ignored by git)
 ├── requirements.txt            # All Python dependencies
-├── README.md                   # You're reading it!
-└── chat_bot and streamlitapp/
-    ├── StreamlitApps.py        # Main Streamlit app 
-    └── Genai_many_inputs.py    # Hugging Face + LangChain logic
-'''
+└── README.md                   # You're reading it!
+</pre>
 
 ## 🧠 Tech Stack
 Streamlit – Fast interactive apps
@@ -57,8 +57,10 @@ Hugging Face – LLMs via API
 Python + dotenv – Clean modular environment
 
 ## 🧪 Example Input
+<pre>
 Field	                   Example
 Problem	  The app crashes when I click the "Submit" button.
 Product   Name	MyFinanceApp
 Product   Nature personal finance management software
 Language  English
+</pre>
