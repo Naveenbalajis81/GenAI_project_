@@ -38,7 +38,7 @@ use this commend make sure env is activate or not
 ## 🗂️ Project Structure
 product_helper/
 │
-├── app.py               # Main Streamlit app
+├── app.py               # Main Streamlit app \n
 ├── .env                 # API keys (ignored by git)
 ├── requirements.txt     # All Python dependencies
 ├── README.md            # You're reading it!
